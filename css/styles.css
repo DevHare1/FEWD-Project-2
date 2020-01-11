@@ -1,15 +1,15 @@
-.h1 {
+h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 54px;
     font-style: bold;
 }
 
-.h2 {
+h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 48px;
 }
 
-.h3 {
+h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
 }

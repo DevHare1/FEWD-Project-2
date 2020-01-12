@@ -3,70 +3,74 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Devan Hare</title>
 </head>
 
 <main>
-    <header>
+    <header id="top">
         <div>
             <h1>Devan Hare</h1>
-            <nav>
+            <nav class="main-nav">
                 <ul>
-                    <li>Home</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
          </div>
         <section>
-            <img src="images/responsive-layout-profile.png" alt="Profile Picture">
-            <p>Hi! I'm a front-end developer who loves responsive designs and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+            <div>
+                <img src="images/responsive-layout-profile.png" alt="Profile Picture" class="profile-image">
+            </div>
+            <div>
+                <p class="introduction">Hi! I'm a front-end developer who loves responsive designs and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+            </div>
         </section>
     </header>
 
-    <section>
-        <h2>Portfolio</h2>
-        <div>
+    <body id="portfolio">
+        <h3>Portfolio</h3>
+        <div class="main-body">
             <img src="images/portfolio-1.png" alt="Marketing Page">
-            <h3>Marketing Page</h3>
+            <h2>Marketing Page</h2>
             <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
         </div>
-        <div>
+        <div class="main-body">
             <img src="images/portfolio-2.png" alt="Search Page">
-            <h3>Search Page</h3>
+            <h2>Search Page</h2>
             <p>This project searches through a specific database to find information that the user is trying to look up.</p>
         </div>
-        <div>
+        <div class="main-body">
             <img src="images/portfolio-3.png" alt="Travel App">
-            <h3>Travel App</h3>
+            <h2>Travel App</h2>
             <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
         </div>
-        <div>
+        <div class="main-body">
             <img src="images/portfolio-4.png" alt="Map of Favorite Spots">
-            <h3>Map of Favorite Spots</h3>
+            <h2>Map of Favorite Spots</h2>
             <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
         </div>
-        <div>
+        <div class="main-body">
             <img src="images/portfolio-5.png" alt="Photo Gallery">
-            <h3>Photo Gallery</h3>
+            <h2>Photo Gallery</h2>
             <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
         </div>
-        <div>
+        <div class="calculator">
             <img src="images/portfolio-6.png" alt="Calculator">
-            <h3>Travel App</h3>
-            <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+            <h2>Calculator</h2>
+            <p>Someone can enter in the numbers they want, and press the big blue button and the get result.</p>
         </div>
-    </section>
+    </body>
   
-    <footer>
-      <h2>CONTACT</h2>
-      <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-      <p>Phone +1(737)932-4800</p>
-      <p>Email devankhare@gmail.com</p>>
-      <link>
-      <h2>Devan Hare</h2>
-      <h2>BACK TO TOP</h2>
+    <footer id="contact">
+        <h3>CONTACT</h3>
+        <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</   p>
+        <p>Phone +1(737)932-4800</p>
+        <p>Email devankhare@gmail.com</p>
+        <h3 class="name">Devan Hare</h3>
+        <h3 class="back-to-top"><a href="#top">Back to Top</a></h3>
     </footer>
 </main>
 </html>

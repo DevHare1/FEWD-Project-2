@@ -188,6 +188,7 @@ img{
         width: 49%;
         float: left;
         padding-left: 15px;
+        padding-bottom: 20px;
     }
 
     .search,
@@ -196,6 +197,7 @@ img{
         width: 49%;
         float: right;
         padding-right: 15px;
+        padding-bottom: 20px;
     }
 
     .contact{
@@ -205,14 +207,23 @@ img{
     }
 
     .follow-up{
+        padding-top: 30px;
+        padding-bottom: 30px;
         padding-left: 20%;
         padding-right: 20%;
         text-align: center;
     }
 
+    .name{
+        float: left;
+        width: 65%;
+        text-align: left;
+        padding-left: 15px;
+    }
+
     .main-footer-nav{
         float: right;
-        width: 50%
+        width: 35%;
     }
     
     .footer-nav{
@@ -223,6 +234,7 @@ img{
         display: inline;
         margin: 0;
         padding: 0 0;
+
     }
 
     .back-to-top{
@@ -304,6 +316,15 @@ img{
     .portfolio{
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+
+    .main-footer{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .main-footer-nav{
+        padding-left: 10px;
     }
     
 }

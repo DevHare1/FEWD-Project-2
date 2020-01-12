@@ -271,10 +271,12 @@ img{
 
     .main-nav {
         float: right;
+        text-align: right;
         width: 50%;
         padding-top: 10px;
         padding-bottom: 0px;
         margin-bottom: 10px;
+        padding-right: 15px;
     }
     
     .introduction{
@@ -290,20 +292,18 @@ img{
         float: right;
         padding: 10px 20px 40px 10px;
         margin: 0;
+        max-width: 375px;
     }
 
     .marketing,
-    .map{
-        width: 33%;
-    }
-
     .travel,
-    .calculator{
+    .photo-gallery{
         width: 33%;
     }
 
     .search,
-    .photo-gallery{
+    .map,
+    .calculator{
         width: 33%;
     }
 
@@ -325,8 +325,17 @@ img{
 
     .main-footer-nav{
         padding-left: 10px;
+        text-align: right;
+    }
+
+    .main-footer-nav li{
+        padding: 10px;
     }
     
+    main{
+        padding: 25px;
+        background-color: rgb(250, 250, 250);
+    }
 }
 
 /*float clearfix------------------*/
